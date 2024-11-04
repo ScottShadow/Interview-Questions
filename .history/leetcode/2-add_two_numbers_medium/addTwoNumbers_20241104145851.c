@@ -28,7 +28,7 @@ struct ListNode *createList(int *arr, int size)
             temp = temp->next;
         }
     }
-    return (head);
+    return head;
 }
 
 /**
@@ -117,15 +117,6 @@ void testAddTwoNumbers(struct TestCase test)
     printf("Test passed!\n");
 }
 
-/**
- * The main function that executes the test cases for the addTwoNumbers function.
- *
- * This function defines an array of test cases, each of which contains two input
- * linked lists representing numbers, and the expected linked list result. It then
- * iterates through each test case, calling the testAddTwoNumbers function to
- * verify the correctness of the addTwoNumbers function implementation. If all
- * test cases pass, the function returns 0.
- */
 int main()
 {
     // Define test cases

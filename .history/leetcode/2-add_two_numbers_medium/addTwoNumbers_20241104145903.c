@@ -28,7 +28,7 @@ struct ListNode *createList(int *arr, int size)
             temp = temp->next;
         }
     }
-    return (head);
+    return head;
 }
 
 /**
